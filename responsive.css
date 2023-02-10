@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.center_div{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow: scroll;
+    cursor: pointer;
+
+    
+}
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(206,24%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+img{
+    padding: 20px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.center_div::-webkit-scrollbar{
+    overflow: hidden;
+}

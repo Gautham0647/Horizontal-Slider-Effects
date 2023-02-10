@@ -3,7 +3,7 @@
 
 const centerDiv = document.getElementById('centerDiv');
 
-fetch("https://jsonplaceholder.typicode.com/photos?_limit=10 ")
+fetch("https://jsonplaceholder.typicode.com/photos?_limit=20 ")
 .then( (res)=>res.json())
 .then ((jsondata) => {
 jsondata.map((val)=>{
